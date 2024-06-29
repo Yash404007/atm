@@ -17,10 +17,12 @@ function App() {
         <Route path="/" element={<Auth/>} />
         <Route path="/Deposit" element={<Deposit/>} />
         <Route path="/Transaction" element={<Transaction/>} />
-        <Route path="/Deposit" element={<Deposit/>} />
         <Route path="/Withdraw" element={<Withdraw/>} />
         <Route path="/protected" element={
           <ProtectedRoute>
+
+
+          
           </ProtectedRoute>
         } />
       </Routes>
